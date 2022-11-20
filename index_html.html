@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ul{
+                list-style: none;
+            }
+            ul li{
+                background-color: skyblue;
+                width: 150px;
+                border: 1px solid white;
+                border-radius: 20px;
+
+                height:50px;
+                line-height:50px;
+                text-align: center;
+                float:left;
+                color: black;
+                font-size: 19px;
+                position: relative;
+
+            }
+            ul li:hover{
+                background-color: rgba(255, 255, 0, 0.288);
+            }
+            ul ul{
+                display: none;
+            }
+            ul li:hover > ul{
+                display: block;
+            }
+            ul ul ul{
+                margin-left: 150px;
+                top: 0px;
+                position: absolute;
+            }
+            .dropdown menu{
+                width:75%;
+                height:100px;
+                margin:0px auto;
+
+            }
+            .dropdown menu ul{
+                padding:0px;
+
+
+            }
+            .dropdown menu ul li{
+                floate:right;
+                backgroung-color:black;
+                color:white;
+                width:200px;
+                list-style:none;
+
+
+            }
+
+            body{
+                background-image: url("RMT2.jpg");
+                background-repeat: no-repeat;
+                background-size: 100%;
+                height:100vp;
+
+            }
+            </style>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    </head>
+    <body>
+            
+
+     <header>
+            <selection class="navsection">
+                <div class="logo">
+                    <h1>RM TRANSPORT CO.</h1>   
+                
+                </div> 
+                <nav>
+                    <div class="dropdown menu">
+                        <ul>
+                            <li>HOME</li>
+                            <li>SERVICE
+                              <ul>
+                                <li>TEMPO</li>
+                                <li>TRUCK
+                                  <ul>
+                                    <li><a href="#" target="_blank">A</a></li>
+                                    <li><a href="#" target="_blank">B</a></li>
+                                  </ul>
+                                </li>
+                                <li>TAILOR
+                                  <ul>
+                                    <li><a href="#" target="_blank">A</a></li>
+                                    <li><a href="#" target="_blank">B</a></li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            <li>GALLERY</li>
+                            <li>ABOUT US</li>
+                            <li>CONTACT US
+                              <ul>
+                                <li><a href="#" target="_blank">View_Details</a></li>
+                              </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </selection>
+            <main>
+              <div class="leftside">
+                <h3>WELCOME..!!</h3><br>
+                <p>R M Transport Co -  <br> Service Provider of tempos rental services,<br> truck transportation services &  <br> vehicle transportation services <br> in Vasai, Maharashtra. <br></p>
+                <a href="#" class="btn1">Login</a>
+                <a href=""class="btn2">Sign Up</a>
+              </div>
+            </main>
+        </header>
+    </body>
+</html>
